@@ -1,0 +1,8 @@
+> library(readxl)
+> felcyta_data <- read_excel("C:/Users/Dhaya/Desktop/felcyta data.xlsx")
+> View(felcyta_data)
+> felcyta<-read_excel("C:/Users/Dhaya/Desktop/felcyta data.xlsx")
+> mean(felcyta$max_price)
+[1] 3078.947
+> sd(felcyta$modal_price)
+[1] 146.4492
